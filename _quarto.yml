@@ -1,0 +1,15 @@
+project:
+  type: website
+  output-dir: docs
+
+website:
+  title: "Horse Population Report"
+  navbar:
+    left:
+      - href: reports/qmd_example.qmd
+        text: Home
+
+format:
+  html:
+    theme: cosmo
+    toc: true
